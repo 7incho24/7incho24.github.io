@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mi tienda en línea</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+			color: #333;
+			margin: 0;
+			padding: 0;
+		}
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+		h1 {
+			margin: 0;
+			font-size: 2rem;
+		}
+		main {
+			margin: 80px auto;
+			max-width: 1000px;
+			padding: 20px;
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			grid-gap: 20px;
+		}
+		.producto {
+			background-color: #fff;
+			border-radius: 5px;
+			box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+			padding: 20px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-between;
+		}
+		.producto img {
+			max-width: 200px;
+			max-height: 200px;
+			margin-bottom: 10px;
+		}
+		.producto h2 {
+			font-size: 1.2rem;
+			margin: 10px 0;
+		}
+		.producto p {
+			font-size: 1rem;
+			margin-bottom: 20px;
+			text-align: center;
+		}
+		.precio {
+			font-size: 1.5rem;
+			color: #333;
+			margin: 20px 0;
+		}
+		.boton {
+			background-color: #4285F4;
+			color: #fff;
+			font-size: 1rem;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		.boton:hover {
+			background-color: #0F9D58;
+		}
+		footer {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			right: 0;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Mi tienda en línea</h1>
+	</header>
+
+	<main>
+		<div class="producto">
+			<img src="https://via.placeholder.com/200x200" alt="Producto 1">
+			<h2>Producto 1</h2>
+			<p>Descripción del producto 1.</p>
+			<div class="precio">$1,000.00</div>
+			<button class="boton">Agregar al carrito</button>
+		</div>
+
+		<div class="producto">
+			<img src="https://via.placeholder.com/200x200" alt="Producto 2">
+			<h2>Producto 2</h2>
+			<p>Descripción del producto 2.</p>
+			<div class="precio">$2,000.00</div>
+			<button class="boton">Agregar al carrito</button>
+		</div>
+
+	<div class="producto">
+		<img src="https://via.placeholder.com/200x200" alt="Producto 3">
+		<h2>Producto 3</h2>
+		<p>Descripción del producto 3.</p>
+		<div class="precio">$3,000.00</div>
+		<a href="https://www.google.com" class="boton">Agregar al carrito</a>
+	</div>
+
+	<div class="producto">
+		<img src="https://via.placeholder.com/200x200" alt="Producto 4">
+		<h2>Producto 4</h2>
+		<p>Descripción del producto 4.</p>
+		<div class="precio">$4,000.00</div>
+		<button class="boton">Agregar al carrito</button>
+	</div>
+
+	<div class="producto">
+		<img src="https://via.placeholder.com/200x200" alt="Producto 5">
+		<h2>Producto 5</h2>
+		<p>Descripción del producto 5.</p>
+		<div class="precio">$5,000.00</div>
+		<button class="boton">Agregar al carrito</button>
+	</div>
+
+	<div class="producto">
+		<img src="https://via.placeholder.com/200x200" alt="Producto 6">
+		<h2>Producto 6</h2>
+		<p>Descripción del producto 6.</p>
+		<div class="precio">$6,000.00</div>
+		<button class="boton">Agregar al carrito</button>
+	</div>
+</main>
+
+<footer>
+	Derechos reservados 2023. Mi tienda en línea.
+</footer>
